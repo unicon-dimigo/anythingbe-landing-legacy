@@ -1,0 +1,91 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Jalnan";
+  src: url("./Jalnan.ttf");
+}
+
+@font-face {
+  font-family: "KoPubDotumMedium";
+  src: url("./KoPub\ Dotum\ Medium.ttf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+}
+
+.background img {
+  width: 100vw;
+  height: auto;
+  margin-bottom: -5px;
+  position: absolute;
+}
+
+#promotitle {
+  left: 170px;
+  font-family: Jalnan;
+  font-size: 96.33px;
+  color: #ffffff;
+  position: absolute;
+}
+
+#promotext {
+  position: absolute;
+  left: 125px;
+  font-family: KoPubDotumMedium;
+  font-size: 26.01px;
+  color: #ffffff;
+  line-height: 33px;
+}
+
+#promolink {
+  position: absolute;
+  left: 125px;
+  font-family: KoPubDotumMedium;
+  font-size: 18.08px;
+  color: #ffffff;
+}
+
+#communitytitle {
+  position: absolute;
+  text-align: right;
+  right: 170px;
+  font-family: Jalnan;
+  font-size: 96.33px;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #000000;
+  opacity: 0.4;
+}
+
+#gradient {
+  position: absolute;
+  height: auto;
+  left: 0;
+  z-index: 2;
+}
+
+#swiper-container {
+  position: absolute;
+  left: 0;
+}
+
+#communitytext {
+  position: absolute;
+  text-align: right;
+  font-family: KoPubDotumMedium;
+  bottom: 2360px;
+  right: 130px;
+  font-size: 26.01px;
+  color: #000000;
+}
